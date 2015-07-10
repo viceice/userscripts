@@ -5,10 +5,11 @@
 // @name        MS Redirection Helper
 // @author      Michael Kriese
 // @namespace   https://github.com/ViceIce/UserScripts
-// @version     0.3
+// @version     0.4
 // @description MS Redirection Helper
-// @copyright   2014 VisualOn GmbH
+// @copyright   2015 VisualOn GmbH
 // @run-at      document-start
+// @grant       none
 //
 // @updateURL   https://raw.githubusercontent.com/ViceIce/UserScripts/master/MS.RedirectionHelper.js
 // @installURL  https://raw.githubusercontent.com/ViceIce/UserScripts/master/MS.RedirectionHelper.js
