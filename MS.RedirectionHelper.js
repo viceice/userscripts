@@ -4,16 +4,16 @@
 // ==UserScript==
 // @name        MS Redirection Helper
 // @author      Michael Kriese
-// @namespace   https://github.com/ViceIce/UserScripts
+// @namespace   https://github.com/viceice/userscripts
 // @version     0.6
 // @description MS Redirection Helper
 // @copyright   2018 Michael Kriese
 // @run-at      document-start
 // @grant       none
 //
-// @updateURL   https://raw.githubusercontent.com/ViceIce/UserScripts/master/MS.RedirectionHelper.js
-// @installURL  https://raw.githubusercontent.com/ViceIce/UserScripts/master/MS.RedirectionHelper.js
-// @downloadURL https://raw.githubusercontent.com/ViceIce/UserScripts/master/MS.RedirectionHelper.js
+// @updateURL   https://raw.githubusercontent.com/viceice/userscripts/master/MS.RedirectionHelper.js
+// @installURL  https://raw.githubusercontent.com/viceice/userscripts/master/MS.RedirectionHelper.js
+// @downloadURL https://raw.githubusercontent.com/viceice/userscripts/master/MS.RedirectionHelper.js
 //
 // @include     http://msdn.microsoft.com/*
 // @include     https://msdn.microsoft.com/*
