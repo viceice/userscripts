@@ -1,33 +1,65 @@
+// ==UserScript==
+// @name        Renovate Dashboard
+// @author      Michael Kriese
+// @namespace   https://github.com/ViceIce/UserScripts
+// @version     0.1
+// @description Updates renovate dashboard
+// @copyright   2020 Michael Kriese
+// @run-at      document-end
+// @grant       none
+//
+// @updateURL   https://raw.githubusercontent.com/ViceIce/UserScripts/master/Renovate.Dashboard.js
+// @installURL  https://raw.githubusercontent.com/ViceIce/UserScripts/master/Renovate.Dashboard.js
+// @downloadURL https://raw.githubusercontent.com/ViceIce/UserScripts/master/Renovate.Dashboard.js
+//
+// @include     https://app.renovatebot.com/dashboard
+// ==/UserScript==
+
+/* eslint-env browser,es2017,greasemonkey  */
+/* global $,hashState,generateSidebarLists */
+
 (function () {
   "use strict";
 
-  // ==UserScript==
-  // @name        Renovate Dashboard
-  // @author      Michael Kriese
-  // @namespace   https://github.com/ViceIce/UserScripts
-  // @version     0.1
-  // @description Updates renovate dashboard
-  // @copyright   2018 Michael Kriese
-  // @run-at      document-end
-  // @grant       none
-  //
-  // @updateURL   https://raw.githubusercontent.com/ViceIce/UserScripts/master/Renovate.Dashboard.js
-  // @installURL  https://raw.githubusercontent.com/ViceIce/UserScripts/master/Renovate.Dashboard.js
-  // @downloadURL https://raw.githubusercontent.com/ViceIce/UserScripts/master/Renovate.Dashboard.js
-  //
-  // @include     https://app.renovatebot.com/dashboard
-  // ==/UserScript==
+  const prefix = "[RD] ";
+  console.log(`${prefix}starting`);
+
+  /**
+   * @param {JQuery} $tgt
+   * @param {'slow' | 'fast'} mode
+   */
+  function toggle($tgt, mode) {
+    console.log(`${prefix}toggle`);
+    $tgt.next().nextUntil(":not(.repo-item)").toggle(mode);
+  }
 
   try {
-      $(document).on('click', '#sidebarList > .nav-item', (e) => {
-          if($(e.target).is('.repo-item')){
-              console.log("ignore repo-item")
-              return;
-          }
+    $(document).on("click", "#sidebarList > .nav-item", (e) => {
+      const $tgt = $(e.target).parent();
+      if ($tgt.is(".repo-item")) {
+        console.log(`${prefix}ignore repo-item`);
+        return;
+      }
 
-          console.log("todo")
-      })
+      toggle($tgt, "slow");
+    });
+
+    const bkp_generateSidebarLists = generateSidebarLists;
+
+    /**
+     * @param {any[]} args
+     */
+    generateSidebarLists = (...args) => {
+      bkp_generateSidebarLists(...args);
+      let orgs = $("#sidebarList > .nav-item").not(".repo-item");
+      if (hashState && hashState.owner) {
+        orgs = orgs.filter(
+          (_i, e) => $(e).find("a").data("owner") !== hashState.owner
+        );
+      }
+      toggle(orgs, "fast");
+    };
   } catch (e) {
-    console.error(e);
+    console.error(`${prefix}unexpected error`, e);
   }
 })();
