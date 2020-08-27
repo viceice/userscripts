@@ -1,6 +1,3 @@
-(function () {
-    "use strict";
-    
 // ==UserScript==
 // @name        MS Redirection Helper
 // @author      Michael Kriese
@@ -22,11 +19,14 @@
 // @include     https://docs.microsoft.com/*
 // ==/UserScript==
 
-    var path = location.pathname;
-    
-    if (path.match(/^\/\w{2}-\w{2}\//gi) && ! path.match(/^\/en-us\//gi)){
-        var uri = location.href;
-        uri = uri.replace(/\/\w{2}-\w{2}\//gi, "/en-us/");
-        location.href = uri;
-    }
+(function () {
+  "use strict";
+
+  var path = location.pathname;
+
+  if (path.match(/^\/\w{2}-\w{2}\//gi) && !path.match(/^\/en-us\//gi)) {
+    var uri = location.href;
+    uri = uri.replace(/\/\w{2}-\w{2}\//gi, "/en-us/");
+    location.href = uri;
+  }
 })();
