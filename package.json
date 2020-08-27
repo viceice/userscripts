@@ -1,7 +1,6 @@
 {
   "name": "@viceice/userscripts",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "https://github.com/ViceIce/UserScripts",
   "author": "Michael Kriese <michael.kriese@visualon.de>",
   "license": "MIT",
