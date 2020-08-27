@@ -5,7 +5,7 @@
 // @name        MS Redirection Helper
 // @author      Michael Kriese
 // @namespace   https://github.com/viceice/userscripts
-// @version     0.6
+// @version     0.7
 // @description MS Redirection Helper
 // @copyright   2018 Michael Kriese
 // @run-at      document-start
