@@ -2,11 +2,15 @@
 // @name         Gitea checkbox helper
 // @author       Michael Kriese
 // @namespace    https://github.com/viceice/userscripts
-// @version      0.1
+// @version      0.2
 // @description  Allows clicking checkboxes on Gittea
 // @copyright    2021 Michael Kriese
 // @run-at       document-end
 // @grant        none
+//
+// @updateURL   https://raw.githubusercontent.com/viceice/userscripts/master/gitea.cb.helper.js
+// @installURL  https://raw.githubusercontent.com/viceice/userscripts/master/gitea.cb.helper.js
+// @downloadURL https://raw.githubusercontent.com/viceice/userscripts/master/gitea.cb.helper.js
 //
 // @include      https://gitea.visualon.de/*
 // ==/UserScript==
@@ -53,7 +57,7 @@
 
     console.log(`${prefix}${owner}/${repo}/${type}#${id}`);
 
-    $(document).on('click', '.timeline-item.comment.first .render-content .task-list-item', (e) => {
+    $(document).on('click', '.timeline-item.comment.first .render-content .task-list-item > .checkbox', (e) => {
       if ($(e.target).closest('a,.vo-table-link').length > 0) return true;
 
       const idx = $('.timeline-item.comment.first .render-content .task-list-item').index($(e.target).closest('.task-list-item'));
