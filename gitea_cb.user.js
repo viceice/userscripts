@@ -1,18 +1,18 @@
 // ==UserScript==
-// @name         Gitea checkbox helper
-// @author       Michael Kriese
-// @namespace    https://github.com/viceice/userscripts
-// @version      0.4.1
-// @description  Allows clicking checkboxes on Gittea
-// @copyright    2021 Michael Kriese
-// @run-at       document-end
-// @grant        none
+// @name        Gitea checkbox helper
+// @author      Michael Kriese
+// @namespace   https://github.com/viceice/userscripts
+// @version     0.4.2
+// @description Allows clicking checkboxes on Gittea
+// @copyright   2021 Michael Kriese
+// @run-at      document-end
+// @grant       none
 //
 // @updateURL   https://raw.githubusercontent.com/viceice/userscripts/main/gitea_cb.user.js
 // @installURL  https://raw.githubusercontent.com/viceice/userscripts/main/gitea_cb.user.js
 // @downloadURL https://raw.githubusercontent.com/viceice/userscripts/main/gitea_cb.user.js
 //
-// @include      https://gitea.visualon.de/*
+// @include     https://gitea.visualon.de/*
 // ==/UserScript==
 
 /* eslint-env browser,es2020,greasemonkey */
