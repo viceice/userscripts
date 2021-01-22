@@ -2,15 +2,15 @@
 // @name        MS Redirection Helper
 // @author      Michael Kriese
 // @namespace   https://github.com/viceice/userscripts
-// @version     0.7
+// @version     0.8
 // @description MS Redirection Helper
-// @copyright   2020 Michael Kriese
+// @copyright   2021 Michael Kriese
 // @run-at      document-start
 // @grant       none
 //
-// @updateURL   https://raw.githubusercontent.com/viceice/userscripts/master/MS.RedirectionHelper.js
-// @installURL  https://raw.githubusercontent.com/viceice/userscripts/master/MS.RedirectionHelper.js
-// @downloadURL https://raw.githubusercontent.com/viceice/userscripts/master/MS.RedirectionHelper.js
+// @updateURL   https://raw.githubusercontent.com/viceice/userscripts/main/MS.RedirectionHelper.js
+// @installURL  https://raw.githubusercontent.com/viceice/userscripts/main/MS.RedirectionHelper.js
+// @downloadURL https://raw.githubusercontent.com/viceice/userscripts/main/MS.RedirectionHelper.js
 //
 // @include     http://msdn.microsoft.com/*
 // @include     https://msdn.microsoft.com/*
