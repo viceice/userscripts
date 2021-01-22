@@ -15,8 +15,8 @@
 // @include      https://gitea.visualon.de/*
 // ==/UserScript==
 
-/* eslint-env browser,es2020,greasemonkey,config */
-/* global $ */
+/* eslint-env browser,es2020,greasemonkey */
+/* global $,config */
 (function () {
   "use strict";
   const prefix = "[RD] ";
