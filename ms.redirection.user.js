@@ -2,8 +2,8 @@
 // @name        MS Redirection Helper
 // @author      Michael Kriese
 // @namespace   https://github.com/viceice/userscripts
-// @version     0.8.1
-// @description MS Redirection Helper
+// @version     0.9
+// @description Redirects to en-us locale docs
 // @copyright   2021 Michael Kriese
 // @run-at      document-start
 // @grant       none

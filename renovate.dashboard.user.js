@@ -2,7 +2,7 @@
 // @name        Renovate Dashboard
 // @author      Michael Kriese
 // @namespace   https://github.com/viceice/userscripts
-// @version     0.3.1
+// @version     0.4
 // @description Updates renovate dashboard
 // @copyright   2021 Michael Kriese
 // @run-at      document-end
