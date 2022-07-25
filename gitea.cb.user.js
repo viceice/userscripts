@@ -2,15 +2,15 @@
 // @name         Gitea checkbox helper
 // @author       Michael Kriese
 // @namespace    https://github.com/viceice/userscripts
-// @version      0.5.2
+// @version      0.6.0
 // @description  Allows clicking checkboxes on Gitea
 // @copyright    2021 Michael Kriese
 // @run-at       document-end
 // @grant        none
 //
-// @updateURL    https://raw.githubusercontent.com/viceice/userscripts/main/gitea.cb.user.js
-// @installURL   https://raw.githubusercontent.com/viceice/userscripts/main/gitea.cb.user.js
-// @downloadURL  https://raw.githubusercontent.com/viceice/userscripts/main/gitea.cb.user.js
+// @updateURL    https://raw.githubusercontent.com/viceice/userscripts/HEAD/gitea.cb.user.js
+// @installURL   https://raw.githubusercontent.com/viceice/userscripts/HEAD/gitea.cb.user.js
+// @downloadURL  https://raw.githubusercontent.com/viceice/userscripts/HEAD/gitea.cb.user.js
 //
 // @include      https://gitea.visualon.de/*
 // ==/UserScript==
