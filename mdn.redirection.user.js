@@ -2,7 +2,7 @@
 // @name         MDN Redirection Helper
 // @author       Michael Kriese
 // @namespace    https://github.com/viceice/userscripts
-// @version      1.0.0
+// @version      1.0.1
 // @description  Redirects to en-us locale docs
 // @copyright    2021 Michael Kriese
 // @run-at       document-start
@@ -22,7 +22,7 @@
   var path = location.pathname;
 
   if (path.match(/^\/\w{2}(?:-\w{2})?\//gi) && !path.match(/^\/en-US\//gi)) {
-    path = path.replace(/^\/\w{2}-\w{2}\//i, '/en-US/');
+    path = path.replace(/^\/\w{2}(?:-\w{2})?\//i, '/en-US/');
     location.href = path;
   }
 })();
