@@ -2,15 +2,15 @@
 // @name        Renovate Dashboard
 // @author      Michael Kriese
 // @namespace   https://github.com/viceice/userscripts
-// @version     0.3
+// @version     0.3.2
 // @description Updates renovate dashboard
 // @copyright   2021 Michael Kriese
 // @run-at      document-end
 // @grant       none
 //
-// @updateURL   https://raw.githubusercontent.com/viceice/userscripts/main/Renovate.Dashboard.js
-// @installURL  https://raw.githubusercontent.com/viceice/userscripts/main/Renovate.Dashboard.js
-// @downloadURL https://raw.githubusercontent.com/viceice/userscripts/main/Renovate.Dashboard.js
+// @updateURL   https://raw.githubusercontent.com/viceice/userscripts/HEAD/renovate.dashboard.user.js
+// @installURL  https://raw.githubusercontent.com/viceice/userscripts/HEAD/renovate.dashboard.user.js
+// @downloadURL https://raw.githubusercontent.com/viceice/userscripts/HEAD/renovate.dashboard.user.js
 //
 // @include     https://app.renovatebot.com/dashboard
 // ==/UserScript==
