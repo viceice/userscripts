@@ -2,7 +2,7 @@
 // @name         Gitea checkbox helper
 // @author       Michael Kriese
 // @namespace    https://github.com/viceice/userscripts
-// @version      0.6.0
+// @version      0.6.1
 // @description  Allows clicking checkboxes on Gitea
 // @copyright    2021 Michael Kriese
 // @run-at       document-end
@@ -12,7 +12,7 @@
 // @installURL   https://raw.githubusercontent.com/viceice/userscripts/HEAD/gitea.cb.user.js
 // @downloadURL  https://raw.githubusercontent.com/viceice/userscripts/HEAD/gitea.cb.user.js
 //
-// @include      https://gitea.visualon.de/*
+// @match        https://gitea.visualon.de/*
 // ==/UserScript==
 
 /* eslint-env browser,es2021,greasemonkey  */

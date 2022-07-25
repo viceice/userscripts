@@ -2,7 +2,7 @@
 // @name         Renovate Dashboard
 // @author       Michael Kriese
 // @namespace    https://github.com/viceice/userscripts
-// @version      0.5.0
+// @version      0.5.1
 // @description  Updates renovate dashboard
 // @copyright    2021 Michael Kriese
 // @run-at       document-end
@@ -12,7 +12,7 @@
 // @installURL   https://raw.githubusercontent.com/viceice/userscripts/HEAD/renovate.dashboard.user.js
 // @downloadURL  https://raw.githubusercontent.com/viceice/userscripts/HEAD/renovate.dashboard.user.js
 //
-// @include      https://app.renovatebot.com/dashboard
+// @match        https://app.renovatebot.com/dashboard
 // ==/UserScript==
 
 /* eslint-env browser,es2021,greasemonkey  */
