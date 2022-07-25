@@ -1,0 +1,40 @@
+name: validate
+
+on:
+  push:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b # tag=v3.0.2
+
+      - name: Set up Node.js ${{ env.NODE_VERSION }}
+        uses: actions/setup-node@2fddd8803e2f5c9604345a0b591c3020ee971a93 # tag=v3.4.1
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: yarn
+
+      - name: Installing dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: lint
+        run: |
+          yarn eslint -f gha
+          yarn prettier:check
+
+      - name: shellcheck
+        uses: reviewdog/action-shellcheck@66c9a47bf02255b250284a82251cb4cadf5043f5 # tag=v1.15.0
+        with:
+          fail_on_error: true
+          reporter: github-check
+          filter_mode: nofilter
+          path: src
+          pattern: "*.sh"
+          check_all_files_with_shebangs: "true"

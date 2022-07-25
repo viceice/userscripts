@@ -1,13 +1,36 @@
 {
   "name": "@viceice/userscripts",
   "version": "1.0.0",
-  "repository": "https://github.com/viceice/userscripts",
-  "author": "Michael Kriese <michael.kriese@visualon.de>",
-  "license": "MIT",
   "private": true,
+  "repository": "https://github.com/viceice/userscripts",
+  "license": "MIT",
+  "author": "Michael Kriese <michael.kriese@visualon.de>",
+  "scripts": {
+    "eslint": "eslint .",
+    "eslint:fix": "eslint . --fix",
+    "postinstall": "husky install",
+    "prettier:check": "prettier -c -u \"{**/*,*}.*\" ",
+    "prettier:fix": "prettier -u \"{**/*,*}.*\" --write"
+  },
   "devDependencies": {
     "@types/jquery": "3.5.14",
+    "@types/node": "16.11.45",
     "@types/tampermonkey": "4.0.5",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "eslint": "8.20.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-formatter-gha": "1.4.1",
+    "eslint-plugin-userscripts": "0.2.8",
+    "husky": "8.0.1",
+    "lint-staged": "13.0.3",
+    "prettier": "2.7.1",
+    "prettier-plugin-packagejson": "2.2.18",
     "typescript": "4.7.3"
+  },
+  "packageManager": "yarn@3.2.1",
+  "engines": {
+    "node": ">=16.13.0",
+    "yarn": "^3.2.0"
   }
 }

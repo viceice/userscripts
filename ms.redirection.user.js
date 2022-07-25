@@ -1,24 +1,25 @@
 // ==UserScript==
-// @name        MS Redirection Helper
-// @author      Michael Kriese
-// @namespace   https://github.com/viceice/userscripts
-// @version     0.9
-// @description Redirects to en-us locale docs
-// @copyright   2021 Michael Kriese
-// @run-at      document-start
-// @grant       none
+// @name         MS Redirection Helper
+// @author       Michael Kriese
+// @namespace    https://github.com/viceice/userscripts
+// @version      0.9.1
+// @description  Redirects to en-us locale docs
+// @copyright    2021 Michael Kriese
+// @run-at       document-start
+// @grant        none
 //
-// @updateURL   https://raw.githubusercontent.com/viceice/userscripts/main/ms.redirection.user.js
-// @installURL  https://raw.githubusercontent.com/viceice/userscripts/main/ms.redirection.user.js
-// @downloadURL https://raw.githubusercontent.com/viceice/userscripts/main/ms.redirection.user.js
+// @updateURL    https://raw.githubusercontent.com/viceice/userscripts/main/ms.redirection.user.js
+// @installURL   https://raw.githubusercontent.com/viceice/userscripts/main/ms.redirection.user.js
+// @downloadURL  https://raw.githubusercontent.com/viceice/userscripts/main/ms.redirection.user.js
 //
-// @include     http://msdn.microsoft.com/*
-// @include     https://msdn.microsoft.com/*
-// @include     http://technet.microsoft.com/*
-// @include     https://technet.microsoft.com/*
-// @include     https://docs.microsoft.com/*
+// @include      http://msdn.microsoft.com/*
+// @include      https://msdn.microsoft.com/*
+// @include      http://technet.microsoft.com/*
+// @include      https://technet.microsoft.com/*
+// @include      https://docs.microsoft.com/*
 // ==/UserScript==
 
+/* eslint-env browser,es2021,greasemonkey  */
 (function () {
   "use strict";
 

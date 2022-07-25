@@ -1,22 +1,22 @@
 // ==UserScript==
-// @name        Renovate Dashboard
-// @author      Michael Kriese
-// @namespace   https://github.com/viceice/userscripts
-// @version     0.4
-// @description Updates renovate dashboard
-// @copyright   2021 Michael Kriese
-// @run-at      document-end
-// @grant       none
+// @name         Renovate Dashboard
+// @author       Michael Kriese
+// @namespace    https://github.com/viceice/userscripts
+// @version      0.4.1
+// @description  Updates renovate dashboard
+// @copyright    2021 Michael Kriese
+// @run-at       document-end
+// @grant        none
 //
-// @updateURL   https://raw.githubusercontent.com/viceice/userscripts/main/renovate.dashboard.user.js
-// @installURL  https://raw.githubusercontent.com/viceice/userscripts/main/renovate.dashboard.user.js
-// @downloadURL https://raw.githubusercontent.com/viceice/userscripts/main/renovate.dashboard.user.js
+// @updateURL    https://raw.githubusercontent.com/viceice/userscripts/main/renovate.dashboard.user.js
+// @installURL   https://raw.githubusercontent.com/viceice/userscripts/main/renovate.dashboard.user.js
+// @downloadURL  https://raw.githubusercontent.com/viceice/userscripts/main/renovate.dashboard.user.js
 //
-// @include     https://app.renovatebot.com/dashboard
+// @include      https://app.renovatebot.com/dashboard
 // ==/UserScript==
 
-/* eslint-env browser,es2017,greasemonkey  */
-/* global $,hashState,generateSidebarLists */
+/* eslint-env browser,es2021,greasemonkey  */
+/* global $,hashState,generateSidebarLists:writable */
 
 (function () {
   "use strict";

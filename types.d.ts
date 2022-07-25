@@ -1,18 +1,18 @@
 /**
  * Only availabe on renovate app dashboard
  */
-declare var generateSidebarLists: (...args: any[]) => void;
+declare let generateSidebarLists: (...args: unknown[]) => void;
 /**
  * Only availabe on renovate app dashboard
  */
-declare var hashState: { platform: string; owner: string };
+declare let hashState: { platform: string; owner: string };
 
 /**
  * Only availabe on gitea
  */
-declare var config: {
-    /**
-     * csrf token for postback's
-     */
+declare let config: {
+  /**
+   * csrf token for postback's
+   */
   csrf: string;
 };
