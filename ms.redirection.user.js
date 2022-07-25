@@ -2,7 +2,7 @@
 // @name         MS Redirection Helper
 // @author       Michael Kriese
 // @namespace    https://github.com/viceice/userscripts
-// @version      0.9.1
+// @version      0.9.2
 // @description  Redirects to en-us locale docs
 // @copyright    2021 Michael Kriese
 // @run-at       document-start
@@ -21,13 +21,13 @@
 
 /* eslint-env browser,es2021,greasemonkey  */
 (function () {
-  "use strict";
+  'use strict';
 
   var path = location.pathname;
 
   if (path.match(/^\/\w{2}-\w{2}\//gi) && !path.match(/^\/en-us\//gi)) {
     var uri = location.href;
-    uri = uri.replace(/\/\w{2}-\w{2}\//gi, "/en-us/");
+    uri = uri.replace(/\/\w{2}-\w{2}\//gi, '/en-us/');
     location.href = uri;
   }
 })();

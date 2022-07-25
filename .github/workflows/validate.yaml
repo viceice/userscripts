@@ -39,5 +39,5 @@ jobs:
           reporter: github-check
           filter_mode: nofilter
           path: src
-          pattern: "*.sh"
-          check_all_files_with_shebangs: "true"
+          pattern: '*.sh'
+          check_all_files_with_shebangs: 'true'

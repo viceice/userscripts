@@ -19,9 +19,9 @@
 /* global $,hashState,generateSidebarLists */
 
 (function () {
-  "use strict";
+  'use strict';
 
-  const prefix = "[RD] ";
+  const prefix = '[RD] ';
   console.log(`${prefix}starting`);
 
   /**
@@ -30,18 +30,18 @@
    */
   function toggle($tgt, mode) {
     console.log(`${prefix}toggle`);
-    $tgt.next().nextUntil(":not(.repo-item)").toggle(mode);
+    $tgt.next().nextUntil(':not(.repo-item)').toggle(mode);
   }
 
   try {
-    $(document).on("click", "#sidebarList > .nav-item", (e) => {
+    $(document).on('click', '#sidebarList > .nav-item', (e) => {
       const $tgt = $(e.target).parent();
-      if ($tgt.is(".repo-item")) {
+      if ($tgt.is('.repo-item')) {
         console.log(`${prefix}ignore repo-item`);
         return;
       }
 
-      toggle($tgt, "slow");
+      toggle($tgt, 'slow');
     });
 
     const bkp_generateSidebarLists = generateSidebarLists;
@@ -52,13 +52,13 @@
     // eslint-disable-next-line no-global-assign
     generateSidebarLists = (...args) => {
       bkp_generateSidebarLists(...args);
-      let orgs = $("#sidebarList > .nav-item").not(".repo-item");
+      let orgs = $('#sidebarList > .nav-item').not('.repo-item');
       if (hashState && hashState.owner) {
         orgs = orgs.filter(
-          (_i, e) => $(e).find("a").data("owner") !== hashState.owner
+          (_i, e) => $(e).find('a').data('owner') !== hashState.owner
         );
       }
-      toggle(orgs, "fast");
+      toggle(orgs, 'fast');
     };
   } catch (e) {
     console.error(`${prefix}unexpected error`, e);
