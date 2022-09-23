@@ -2,7 +2,7 @@
 // @name         MS Redirection Helper
 // @author       Michael Kriese
 // @namespace    https://github.com/viceice/userscripts
-// @version      0.10.1
+// @version      0.11.0
 // @description  Redirects to en-us locale docs
 // @copyright    2021 Michael Kriese
 // @run-at       document-start
@@ -17,6 +17,7 @@
 // @match        http://technet.microsoft.com/*
 // @match        https://technet.microsoft.com/*
 // @match        https://docs.microsoft.com/*
+// @match        https://learn.microsoft.com/*
 // ==/UserScript==
 
 /* eslint-env browser,es2021,greasemonkey  */
