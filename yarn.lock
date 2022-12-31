@@ -103,12 +103,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jquery@npm:3.5.14":
-  version: 3.5.14
-  resolution: "@types/jquery@npm:3.5.14"
+"@types/jquery@npm:3.5.15":
+  version: 3.5.15
+  resolution: "@types/jquery@npm:3.5.15"
   dependencies:
     "@types/sizzle": "*"
-  checksum: 159d6f804ed1a204b3f79f2d591a271d82e866bd45bd49fb6ef40561a25dbe0f47ec7815681b44cc2db5598425f72811e7e80ab0e983d980470998ac56feb375
+  checksum: bd14fbcfbc73f8046276b5e90925a89d2f34b3cd0acac5d6eff2a28eebf7a9dd723dfc6d11188a863c3690fbe5d6206c2de652220d0f2c6cbd5c0879475a9860
   languageName: node
   linkType: hard
 
@@ -275,7 +275,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@viceice/userscripts@workspace:."
   dependencies:
-    "@types/jquery": 3.5.14
+    "@types/jquery": 3.5.15
     "@types/node": 16.18.11
     "@types/tampermonkey": 4.0.5
     "@typescript-eslint/eslint-plugin": latest
