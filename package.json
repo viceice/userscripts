@@ -23,7 +23,7 @@
     "eslint-formatter-gha": "1.4.2",
     "eslint-plugin-userscripts": "0.2.11",
     "husky": "8.0.3",
-    "lint-staged": "13.1.2",
+    "lint-staged": "13.1.4",
     "prettier": "2.8.4",
     "prettier-plugin-packagejson": "2.4.3",
     "typescript": "4.9.5"
