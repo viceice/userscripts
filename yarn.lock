@@ -298,7 +298,7 @@ __metadata:
     eslint: 8.36.0
     eslint-config-prettier: 8.7.0
     eslint-formatter-gha: 1.4.2
-    eslint-plugin-userscripts: 0.2.11
+    eslint-plugin-userscripts: 0.2.12
     husky: 8.0.3
     lint-staged: 13.1.4
     prettier: 2.8.4
@@ -667,15 +667,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-userscripts@npm:0.2.11":
-  version: 0.2.11
-  resolution: "eslint-plugin-userscripts@npm:0.2.11"
+"eslint-plugin-userscripts@npm:0.2.12":
+  version: 0.2.12
+  resolution: "eslint-plugin-userscripts@npm:0.2.12"
   dependencies:
     requireindex: ~1.2.0
-    semver: ^7.3.5
+    semver: ^7.3.8
   peerDependencies:
     eslint: ">=6.0.0 <9"
-  checksum: baf16bece978bc18046bac82e488686bc9847b6bbbc27a4de2f367861d9a97036855346b96fa92b6f84165337e7aba99267e3f4b29f8417ddee8f4a0a796ba5b
+  checksum: 210f73dad354cf8be85f9886c8df6513e2e36195616fb36536f2851b17b154e550248abbf6cb6a5bf5226761bb1f5ca9e3030b91ac2b1b38f0dca6d827a46e76
   languageName: node
   linkType: hard
 
@@ -1673,14 +1673,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:^7.3.5, semver@npm:^7.3.7":
-  version: 7.3.7
-  resolution: "semver@npm:7.3.7"
+"semver@npm:^7.3.7, semver@npm:^7.3.8":
+  version: 7.3.8
+  resolution: "semver@npm:7.3.8"
   dependencies:
     lru-cache: ^6.0.0
   bin:
     semver: bin/semver.js
-  checksum: 2fa3e877568cd6ce769c75c211beaed1f9fce80b28338cadd9d0b6c40f2e2862bafd62c19a6cff42f3d54292b7c623277bcab8816a2b5521cf15210d43e75232
+  checksum: ba9c7cbbf2b7884696523450a61fee1a09930d888b7a8d7579025ad93d459b2d1949ee5bbfeb188b2be5f4ac163544c5e98491ad6152df34154feebc2cc337c1
   languageName: node
   linkType: hard
 
