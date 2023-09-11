@@ -18,7 +18,7 @@
     "@types/tampermonkey": "4.20.2",
     "@typescript-eslint/eslint-plugin": "latest",
     "@typescript-eslint/parser": "latest",
-    "eslint": "8.48.0",
+    "eslint": "8.49.0",
     "eslint-config-prettier": "8.10.0",
     "eslint-formatter-gha": "1.4.2",
     "eslint-plugin-userscripts": "0.4.0",
