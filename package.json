@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@types/jquery": "3.5.19",
-    "@types/node": "16.18.53",
+    "@types/node": "16.18.54",
     "@types/tampermonkey": "4.20.3",
     "@typescript-eslint/eslint-plugin": "latest",
     "@typescript-eslint/parser": "latest",
