@@ -12,7 +12,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@actions/core@npm:^1.2.6":
+"@actions/core@npm:^1.10.1":
   version: 1.10.1
   resolution: "@actions/core@npm:1.10.1"
   dependencies:
@@ -331,7 +331,7 @@ __metadata:
     "@typescript-eslint/parser": latest
     eslint: 8.52.0
     eslint-config-prettier: 8.10.0
-    eslint-formatter-gha: 1.4.2
+    eslint-formatter-gha: 1.4.3
     eslint-plugin-userscripts: 0.4.0
     husky: 8.0.3
     lint-staged: 13.3.0
@@ -678,14 +678,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-formatter-gha@npm:1.4.2":
-  version: 1.4.2
-  resolution: "eslint-formatter-gha@npm:1.4.2"
+"eslint-formatter-gha@npm:1.4.3":
+  version: 1.4.3
+  resolution: "eslint-formatter-gha@npm:1.4.3"
   dependencies:
-    "@actions/core": ^1.2.6
+    "@actions/core": ^1.10.1
     eslint-formatter-json: ^8.0.0
     eslint-formatter-stylish: ^8.0.0
-  checksum: d5ad0551b3d494cb98ba00fb77cf99a681b6039126214e8c463f00450e19f4f14764625047a935b60c427815537fd17417c677277e4d5aa572b106f391cfb5a4
+  checksum: 6c9de42dbc7ffd85dbc8b91b7f2961afa05ff0f399e3164e52a073bd28a70a4829a479f9bf402c899d22c64e34bb3e2843d2a2c4c05afdc088836bab30b6ed1f
   languageName: node
   linkType: hard
 
