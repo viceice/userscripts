@@ -13,7 +13,7 @@
     "prettier:fix": "prettier -u \"{**/*,*}.*\" --write"
   },
   "devDependencies": {
-    "@types/jquery": "3.5.27",
+    "@types/jquery": "3.5.29",
     "@types/node": "16.18.62",
     "@types/tampermonkey": "4.20.4",
     "@typescript-eslint/eslint-plugin": "latest",
