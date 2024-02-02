@@ -326,7 +326,7 @@ __metadata:
     eslint: 8.56.0
     eslint-config-prettier: 8.10.0
     eslint-formatter-gha: 1.4.3
-    eslint-plugin-userscripts: 0.5.1
+    eslint-plugin-userscripts: 0.5.2
     husky: 8.0.3
     lint-staged: 13.3.0
     prettier: 2.8.8
@@ -656,14 +656,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-userscripts@npm:0.5.1":
-  version: 0.5.1
-  resolution: "eslint-plugin-userscripts@npm:0.5.1"
+"eslint-plugin-userscripts@npm:0.5.2":
+  version: 0.5.2
+  resolution: "eslint-plugin-userscripts@npm:0.5.2"
   dependencies:
     semver: ^7.3.8
   peerDependencies:
     eslint: ">=8.40.0 <10"
-  checksum: 08c5dd582038b6be08e2637c24b5254397795d5c1a3876095eb49b7d1b2c4c9f58abf14b5f3fb502e241c76b7b89ec7989f59600c25cf84943664eec4d60eb34
+  checksum: 929862886a3bcc9a3b47f6f57f5059b5d1b6f02cb1b1625cbda91d6922ae8d8e021f9eb28673b22369e9446f306b91db5c9d27ff910e95c0c8dbc8daba63ff6e
   languageName: node
   linkType: hard
 
