@@ -275,7 +275,7 @@ __metadata:
     husky: 8.0.3
     lint-staged: 13.3.0
     prettier: 2.8.8
-    prettier-plugin-packagejson: 2.5.3
+    prettier-plugin-packagejson: 2.5.5
     typescript: 4.9.5
   languageName: unknown
   linkType: soft
@@ -527,15 +527,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dir-glob@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "dir-glob@npm:3.0.1"
-  dependencies:
-    path-type: ^4.0.0
-  checksum: fa05e18324510d7283f55862f3161c6759a3f2f8dbce491a2fc14c8324c498286c54282c1f0e933cb930da8419b30679389499b919122952a4f8592362ef4615
-  languageName: node
-  linkType: hard
-
 "doctrine@npm:^3.0.0":
   version: 3.0.0
   resolution: "doctrine@npm:3.0.0"
@@ -755,7 +746,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-glob@npm:^3.3.0, fast-glob@npm:^3.3.2":
+"fast-glob@npm:^3.3.2":
   version: 3.3.2
   resolution: "fast-glob@npm:3.3.2"
   dependencies:
@@ -788,6 +779,18 @@ __metadata:
   dependencies:
     reusify: ^1.0.4
   checksum: a8c5b26788d5a1763f88bae56a8ddeee579f935a831c5fe7a8268cea5b0a91fbfe705f612209e02d639b881d7b48e461a50da4a10cfaa40da5ca7cc9da098d88
+  languageName: node
+  linkType: hard
+
+"fdir@npm:^6.4.2":
+  version: 6.4.2
+  resolution: "fdir@npm:6.4.2"
+  peerDependencies:
+    picomatch: ^3 || ^4
+  peerDependenciesMeta:
+    picomatch:
+      optional: true
+  checksum: 517ad31c495f1c0778238eef574a7818788efaaf2ce1969ffa18c70793e2951a9763dfa2e6720b8fcef615e602a3cbb47f9b8aea9da0b02147579ab36043f22f
   languageName: node
   linkType: hard
 
@@ -906,19 +909,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globby@npm:^13.1.2":
-  version: 13.2.2
-  resolution: "globby@npm:13.2.2"
-  dependencies:
-    dir-glob: ^3.0.1
-    fast-glob: ^3.3.0
-    ignore: ^5.2.4
-    merge2: ^1.4.1
-    slash: ^4.0.0
-  checksum: f3d84ced58a901b4fcc29c846983108c426631fe47e94872868b65565495f7bee7b3defd68923bd480582771fd4bbe819217803a164a618ad76f1d22f666f41e
-  languageName: node
-  linkType: hard
-
 "graphemer@npm:^1.4.0":
   version: 1.4.0
   resolution: "graphemer@npm:1.4.0"
@@ -949,7 +939,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ignore@npm:^5.2.0, ignore@npm:^5.2.4, ignore@npm:^5.3.1":
+"ignore@npm:^5.2.0, ignore@npm:^5.3.1":
   version: 5.3.2
   resolution: "ignore@npm:5.3.2"
   checksum: 2acfd32a573260ea522ea0bfeff880af426d68f6831f973129e2ba7363f422923cf53aab62f8369cbf4667c7b25b6f8a3761b34ecdb284ea18e87a5262a865be
@@ -1181,7 +1171,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"merge2@npm:^1.3.0, merge2@npm:^1.4.1":
+"merge2@npm:^1.3.0":
   version: 1.4.1
   resolution: "merge2@npm:1.4.1"
   checksum: 7268db63ed5169466540b6fb947aec313200bcf6d40c5ab722c22e242f651994619bcd85601602972d3c85bd2cc45a358a4c61937e9f11a061919a1da569b0c2
@@ -1366,17 +1356,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"path-type@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "path-type@npm:4.0.0"
-  checksum: 5b1e2daa247062061325b8fdbfd1fb56dde0a448fb1455453276ea18c60685bdad23a445dc148cf87bc216be1573357509b7d4060494a6fd768c7efad833ee45
-  languageName: node
-  linkType: hard
-
 "picomatch@npm:^2.3.1":
   version: 2.3.1
   resolution: "picomatch@npm:2.3.1"
   checksum: 050c865ce81119c4822c45d3c84f1ced46f93a0126febae20737bd05ca20589c564d6e9226977df859ed5e03dc73f02584a2b0faad36e896936238238b0446cf
+  languageName: node
+  linkType: hard
+
+"picomatch@npm:^4.0.2":
+  version: 4.0.2
+  resolution: "picomatch@npm:4.0.2"
+  checksum: a7a5188c954f82c6585720e9143297ccd0e35ad8072231608086ca950bee672d51b0ef676254af0788205e59bd4e4deb4e7708769226bed725bf13370a7d1464
   languageName: node
   linkType: hard
 
@@ -1396,18 +1386,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-packagejson@npm:2.5.3":
-  version: 2.5.3
-  resolution: "prettier-plugin-packagejson@npm:2.5.3"
+"prettier-plugin-packagejson@npm:2.5.5":
+  version: 2.5.5
+  resolution: "prettier-plugin-packagejson@npm:2.5.5"
   dependencies:
-    sort-package-json: 2.10.1
+    sort-package-json: 2.11.0
     synckit: 0.9.2
   peerDependencies:
     prettier: ">= 1.16.0"
   peerDependenciesMeta:
     prettier:
       optional: true
-  checksum: 0b3063cb3d1be8e908fa2dcbee8601134f4aa847d41cdc7d3204b09a737b0c2b3606b2c531dfdbe4fc7ade9d21975528b9a56200f241c3450c461b9f046be3d7
+  checksum: 814225e33dbe228be59a5345326a3ded6c5a44c0ec6e72fad1dd288692b136f212a43dc455805eba71df7a0cec6f72bd8e6aeb39d0ff3d2bb506dd74e6b212ab
   languageName: node
   linkType: hard
 
@@ -1517,13 +1507,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"slash@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "slash@npm:4.0.0"
-  checksum: da8e4af73712253acd21b7853b7e0dbba776b786e82b010a5bfc8b5051a1db38ed8aba8e1e8f400dd2c9f373be91eb1c42b66e91abb407ff42b10feece5e1d2d
-  languageName: node
-  linkType: hard
-
 "slice-ansi@npm:^5.0.0":
   version: 5.0.0
   resolution: "slice-ansi@npm:5.0.0"
@@ -1541,21 +1524,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sort-package-json@npm:2.10.1":
-  version: 2.10.1
-  resolution: "sort-package-json@npm:2.10.1"
+"sort-package-json@npm:2.11.0":
+  version: 2.11.0
+  resolution: "sort-package-json@npm:2.11.0"
   dependencies:
     detect-indent: ^7.0.1
     detect-newline: ^4.0.0
     get-stdin: ^9.0.0
     git-hooks-list: ^3.0.0
-    globby: ^13.1.2
     is-plain-obj: ^4.1.0
     semver: ^7.6.0
     sort-object-keys: ^1.1.3
+    tinyglobby: ^0.2.9
   bin:
     sort-package-json: cli.js
-  checksum: 861d8161565fba322414d70b6be10fb331680549b73399778965be628783833c85c4e02929bcea5a2d96994884b0327dfe2f7c7a79409c901d2582b703f5333d
+  checksum: cf7e0c2a8a659170100467a066aa86cc118d364d2171d4ffb3455efea224fa62d1bd72dbfdec8f5d590151ed79a5805c3c23329ec5a101bac1d30542f204e594
   languageName: node
   linkType: hard
 
@@ -1632,6 +1615,16 @@ __metadata:
   version: 0.2.0
   resolution: "text-table@npm:0.2.0"
   checksum: b6937a38c80c7f84d9c11dd75e49d5c44f71d95e810a3250bd1f1797fc7117c57698204adf676b71497acc205d769d65c16ae8fa10afad832ae1322630aef10a
+  languageName: node
+  linkType: hard
+
+"tinyglobby@npm:^0.2.9":
+  version: 0.2.10
+  resolution: "tinyglobby@npm:0.2.10"
+  dependencies:
+    fdir: ^6.4.2
+    picomatch: ^4.0.2
+  checksum: 7e2ffe262ebc149036bdef37c56b32d02d52cf09efa7d43dbdab2ea3c12844a4da881058835ce4c74d1891190e5ad5ec5133560a11ec8314849b68ad0d99d3f4
   languageName: node
   linkType: hard
 
