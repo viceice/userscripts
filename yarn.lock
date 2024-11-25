@@ -115,10 +115,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:16.18.119":
-  version: 16.18.119
-  resolution: "@types/node@npm:16.18.119"
-  checksum: e473300cc17a77f1369262b21caf87df1899c3a1a320d4200e464adbf12c23bb923b956499332c57ad748a27956059484732b58765f7bae3be572f4819599243
+"@types/node@npm:16.18.120":
+  version: 16.18.120
+  resolution: "@types/node@npm:16.18.120"
+  checksum: fa21e93d79e8a738cdc69a03e51ed25e23a87fd6d55943ab2964f940d81bd693788ee5c5f65787a093912bc1ca0cc751665f109fe184439996b013dc0002d6c9
   languageName: node
   linkType: hard
 
@@ -269,7 +269,7 @@ __metadata:
   resolution: "@viceice/userscripts@workspace:."
   dependencies:
     "@types/jquery": 3.5.32
-    "@types/node": 16.18.119
+    "@types/node": 16.18.120
     "@types/tampermonkey": 4.20.4
     "@typescript-eslint/eslint-plugin": latest
     "@typescript-eslint/parser": latest
