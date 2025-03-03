@@ -271,7 +271,7 @@ __metadata:
     husky: 8.0.3
     lint-staged: 13.3.0
     prettier: 2.8.8
-    prettier-plugin-packagejson: 2.5.9
+    prettier-plugin-packagejson: 2.5.10
     typescript: 4.9.5
   languageName: unknown
   linkType: soft
@@ -1389,18 +1389,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-packagejson@npm:2.5.9":
-  version: 2.5.9
-  resolution: "prettier-plugin-packagejson@npm:2.5.9"
+"prettier-plugin-packagejson@npm:2.5.10":
+  version: 2.5.10
+  resolution: "prettier-plugin-packagejson@npm:2.5.10"
   dependencies:
-    sort-package-json: 2.15.0
+    sort-package-json: 2.15.1
     synckit: 0.9.2
   peerDependencies:
     prettier: ">= 1.16.0"
   peerDependenciesMeta:
     prettier:
       optional: true
-  checksum: c0b6d271fd6a99af690f392d7293438b5e337080f61829c193677197a71aef5ec8f235d67bc20fbb5d1a1fd3553512aea88a7fe62d82e9b6fcc6ba0b3176fcc4
+  checksum: 24192855a3bab72125e61a987e944301ac86cbc905f3d172a0cb954548b1f1802f821efef78afc396766f866e573692a391665e606b03dcd6ac00b5f17f68bd2
   languageName: node
   linkType: hard
 
@@ -1527,9 +1527,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sort-package-json@npm:2.15.0":
-  version: 2.15.0
-  resolution: "sort-package-json@npm:2.15.0"
+"sort-package-json@npm:2.15.1":
+  version: 2.15.1
+  resolution: "sort-package-json@npm:2.15.1"
   dependencies:
     detect-indent: ^7.0.1
     detect-newline: ^4.0.0
@@ -1541,7 +1541,7 @@ __metadata:
     tinyglobby: ^0.2.9
   bin:
     sort-package-json: cli.js
-  checksum: 9fdf9e5f1777c95a470f2dee6163e348762b3b50ae1f649103303786f6a452219aec78f74cad6dd218f755d0fa85fa54cc20118b1862c317126568ff2b66fcf6
+  checksum: 2d612da6bc597da4552d6006cfe769a0f745b4a32da848dbdb606aa42b599ca670519aa9f07d388a2a41e92f310e936e2a9e406904599bf86c1cb279488572c0
   languageName: node
   linkType: hard
 
