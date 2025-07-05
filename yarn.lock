@@ -290,7 +290,7 @@ __metadata:
     "@typescript-eslint/parser": latest
     eslint: 8.57.1
     eslint-config-prettier: 8.10.0
-    eslint-formatter-gha: 1.5.2
+    eslint-formatter-gha: 1.6.0
     eslint-plugin-userscripts: 0.5.6
     husky: 8.0.3
     lint-staged: 13.3.0
@@ -588,13 +588,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-formatter-gha@npm:1.5.2":
-  version: 1.5.2
-  resolution: "eslint-formatter-gha@npm:1.5.2"
+"eslint-formatter-gha@npm:1.6.0":
+  version: 1.6.0
+  resolution: "eslint-formatter-gha@npm:1.6.0"
   dependencies:
     eslint-formatter-json: ^8.40.0
     eslint-formatter-stylish: ^8.40.0
-  checksum: d9fb079a3793110fbc1ce53745409eaf341c938dad3a35667a65983923545872ab6709b783ca2aeaa3efdb5e7ed70467680c9dbd4956438ca1d7f71ea2471a62
+  checksum: 1726f977c440e5cad6be44e9d42d7144c189053f98510609130136df60c39d63379eae55fd80d88e33c214a69866712032434f5705acc2ec1ad6d036634da41f
   languageName: node
   linkType: hard
 
