@@ -2,14 +2,13 @@
 // @name         MDN Redirection Helper
 // @author       Michael Kriese
 // @namespace    https://github.com/viceice/userscripts
-// @version      1.0.1
+// @version      1.0.2
 // @description  Redirects to en-us locale docs
-// @copyright    2021 Michael Kriese
+// @copyright    2025 Michael Kriese
 // @run-at       document-start
 // @grant        none
 //
 // @updateURL    https://raw.githubusercontent.com/viceice/userscripts/HEAD/mdn.redirection.user.js
-// @installURL   https://raw.githubusercontent.com/viceice/userscripts/HEAD/mdn.redirection.user.js
 // @downloadURL  https://raw.githubusercontent.com/viceice/userscripts/HEAD/mdn.redirection.user.js
 //
 // @match        https://developer.mozilla.org/*
