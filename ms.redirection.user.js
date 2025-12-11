@@ -2,14 +2,13 @@
 // @name         MS Redirection Helper
 // @author       Michael Kriese
 // @namespace    https://github.com/viceice/userscripts
-// @version      0.11.0
+// @version      0.11.1
 // @description  Redirects to en-us locale docs
 // @copyright    2021 Michael Kriese
 // @run-at       document-start
 // @grant        none
 //
 // @updateURL    https://raw.githubusercontent.com/viceice/userscripts/HEAD/ms.redirection.user.js
-// @installURL   https://raw.githubusercontent.com/viceice/userscripts/HEAD/ms.redirection.user.js
 // @downloadURL  https://raw.githubusercontent.com/viceice/userscripts/HEAD/ms.redirection.user.js
 //
 // @match        http://msdn.microsoft.com/*
