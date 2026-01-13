@@ -99,13 +99,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pkgr/core@npm:^0.2.9":
-  version: 0.2.9
-  resolution: "@pkgr/core@npm:0.2.9"
-  checksum: bb2fb86977d63f836f8f5b09015d74e6af6488f7a411dcd2bfdca79d76b5a681a9112f41c45bdf88a9069f049718efc6f3900d7f1de66a2ec966068308ae517f
-  languageName: node
-  linkType: hard
-
 "@types/jquery@npm:3.5.33":
   version: 3.5.33
   resolution: "@types/jquery@npm:3.5.33"
@@ -294,7 +287,7 @@ __metadata:
     husky: 8.0.3
     lint-staged: 13.3.0
     prettier: 2.8.8
-    prettier-plugin-packagejson: 2.5.20
+    prettier-plugin-packagejson: 2.5.21
     typescript: 4.9.5
   languageName: unknown
   linkType: soft
@@ -1373,18 +1366,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-packagejson@npm:2.5.20":
-  version: 2.5.20
-  resolution: "prettier-plugin-packagejson@npm:2.5.20"
+"prettier-plugin-packagejson@npm:2.5.21":
+  version: 2.5.21
+  resolution: "prettier-plugin-packagejson@npm:2.5.21"
   dependencies:
     sort-package-json: 3.5.0
-    synckit: 0.11.11
   peerDependencies:
     prettier: ">= 1.16.0"
   peerDependenciesMeta:
     prettier:
       optional: true
-  checksum: 2bdcdaa6c5fcf2fa58e6101aa0a3e4554ec469713da9874eed348cc013da87ee44e01bc63792c7d244ca95acc78c8810a3b703f14a129d63b3d044dbfb7856e7
+  checksum: c8eaa4b803dc6ad930f76d49779a529784b8c0686783c623780a3db199ec3a4f2f85f38f6ed168d62bc4282bb04a888317a6088fcbcfeb525598c7809db07193
   languageName: node
   linkType: hard
 
@@ -1584,15 +1576,6 @@ __metadata:
   dependencies:
     has-flag: ^4.0.0
   checksum: 3dda818de06ebbe5b9653e07842d9479f3555ebc77e9a0280caf5a14fb877ffee9ed57007c3b78f5a6324b8dbeec648d9e97a24e2ed9fdb81ddc69ea07100f4a
-  languageName: node
-  linkType: hard
-
-"synckit@npm:0.11.11":
-  version: 0.11.11
-  resolution: "synckit@npm:0.11.11"
-  dependencies:
-    "@pkgr/core": ^0.2.9
-  checksum: bc896d4320525501495654766e6b0aa394e522476ea0547af603bdd9fd7e9b65dcd6e3a237bc7eb3ab7e196376712f228bf1bf6ed1e1809f4b32dc9baf7ad413
   languageName: node
   linkType: hard
 
