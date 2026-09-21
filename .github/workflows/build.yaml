@@ -36,7 +36,7 @@ jobs:
           yarn prettier:check
 
       - name: shellcheck
-        uses: reviewdog/action-shellcheck@a94d585085f1f5215ae65f4de34e7bbd0523d550 # v1.33
+        uses: reviewdog/action-shellcheck@0a90156c6e0553996a217f0a9e09be6b0f6bee4c # v1.34
         with:
           fail_on_error: true
           reporter: github-check
